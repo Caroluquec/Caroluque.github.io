@@ -1,0 +1,119 @@
+.icons {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: .825rem;
+    /*    */
+}
+
+.tienda {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.productos {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 27px;
+}
+
+.productos div {
+    border: 1px black;
+    padding: 30px;
+    text-align: center;
+    line-height: 18.75rem;
+
+}
+
+.imagenes1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 5%;
+    border: 2px solid rgb(0, 0, 0.5);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 35px;
+    transition: transform 0.3seg;
+    line-height: 60px;
+}
+.imagenes1 div:hover{
+    border: 2px solid  #21B0FA;
+    transform: scale(1.2,1.2);
+}
+.imagenes2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 5%;
+    border: 2px solid rgb(0, 0, 0.5);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: transform 0.3seg;
+    padding: 35px;
+    line-height: 60px;
+}
+.imagenes2 div:hover{
+    border: 2px solid  #21B0FA;
+    transform: scale(1.2,1.2);
+}
+.imagenes3 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 5%;
+    border: 2px solid rgb(0, 0, 0.5);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: transform 0.3seg;
+    padding: 35px;
+    line-height: 60px;
+}
+.imagenes3 div:hover{
+    border: 2px solid  #21B0FA;
+    transform: scale(1.2,1.2);
+}
+
+
+
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+/* .productos{
+    box-sizing: border-box;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100vh;
+    background-color: gray;
+    position: absolute;
+    top: 40%;
+    left: 25%;  
+}
+
+.productos div{
+width: 80px;
+background-color: blue;
+} */
